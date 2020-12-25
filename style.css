@@ -1,72 +1,114 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
+a.lat {
+    padding: 1%;
+    background-color: lightseagreen;
+    color: white;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: medium;  
 }
 
-header {
-  background: #333;
+.tog {
+    color: white;
+}
+
+.togbar {
+      background-color: lightseagreen;
+  }
+
+.to-right {
+    float: right;
+  }
+
+  /* Modify brand and text color  
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+	color: green; 
+} */
+
+/* Modify the backgorund color */ 
+
+
+.body-grey {
+    background-color:rgb(241, 241, 241);
+    padding: 0;
+}
+
+.body-white {
+    background-color: white;
+    padding:3%
+}
+
+.body-grey2 {
+    background-color:rgb(241, 241, 241);
+    padding:3%;
+   
+}
+
+.body-white2 {
+    background-color: white;
+    padding:3%;
+    margin-top: 1%;
+    
+}
+
+.col_pad1 {
+    padding: 3%;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+.col_pad2 {
+    padding: 3%;
+    text-align: justify;
+    margin-top: 13.5%;
 }
 
 h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
+    color:lightseagreen;
+    font-size: 24px;
+    font-weight:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
-  font-size: 24px;
+    color:lightseagreen;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-a {
-  color: #d21034;
-}
+h4 { font-size: 10px;
 
-/* Selecting elements by class */
-.container {
-  width: 1024px;
-  margin: 0 auto;
 }
+.togbar {
+    background:white;
+  }
 
-/* Selecting elements by ID */
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
-}
+.aligntog{
+    margin-left: 70%;
+  }
 
-#figure {
-  position: relative;
-}
+img{width:100%;
+         
+  }  
 
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
+figure {
+    border: 1px solid: lightseagreen;
+    padding: 1px;
 }
+    
+@media (max-width: 990px) {
+    .togbar {
+      background: lightseagreen;
+    }
+    
+    
 
-#main-bio {
-  width: 70%;
-}
+    .aligntog{
+          margin-left: 40%;
+          
+    }
 
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-}
+    img{width:20%;
+         
+    }  

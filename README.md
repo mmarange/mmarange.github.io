@@ -1,30 +1,46 @@
-Agency Jekyll theme
-====================
+# Web Design Homework - Web Visualization Dashboard (Latitude)
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Home page
 
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+![Images/landingResize.png](Images/HomePage_large.PNG)
 
 
-# Demo
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+￼
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+#### <a id="comparisons-page"></a>Comparisons page
+
+Large screen:
+
+![comparison page large screen](Images/Comparison_large.PNG)
+
+
+
+#### <a id="data-page"></a>Data page
+
+Large screen:
+
+![data page large screen](Images/Data_large.PNG)
+
+
+
+#### <a id="visualization-pages"></a>Visualization pages
+
+
+
+Large screen:
+
+![visualize page large screen](Images/Max_Temp_large.PNG)
+
+
+
+#### Small Screen
+
+
+![nav menu large screen](Images/Small_screen.PNG)
+
+
+
+### Copyright
+
+Trilogy Education Services © 2019. All Rights Reserved.
